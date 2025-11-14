@@ -2,8 +2,8 @@ import axios from "axios";
 import Cookies from "js-cookie";
 
 export const api = axios.create({
-  baseURL: "https://todoist-3sem.onrender.com/api",
-  withCredentials: true,
+baseURL: "https://todoist-3sem.onrender.com/api",
+withCredentials: true,
 });
 
 api.interceptors.request.use((config) => {
