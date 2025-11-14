@@ -96,6 +96,12 @@ const Login: React.FC = () => {
               )}
             </div>
 
+          <p className="mt-2 text-right">
+            <Link to="/forgot-password" className="text-blue-600 underline text-sm">
+            Forgot Password?
+            </Link>
+          </p>
+
             <button
               type="submit"
               disabled={loading}

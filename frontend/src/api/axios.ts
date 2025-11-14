@@ -2,7 +2,7 @@ import axios from "axios";
 import Cookies from "js-cookie";
 
 export const api = axios.create({
-  baseURL: "http://localhost:8080/api",
+  baseURL: "https://todoist-3sem.onrender.com/api",
   withCredentials: true,
 });
 
